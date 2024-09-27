@@ -16,7 +16,7 @@ const CalendarPreview = () => {
   ])
 
   return (
-    <div>
+    <div className="calendar-preview">
       <h3>Recurring Dates Preview</h3>
       <ul>
         {recurringDates.map((date, index) => (

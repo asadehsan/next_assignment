@@ -13,8 +13,7 @@ const RecurringDatePicker = () => {
   const setEndDate = useRecurringDateStore(state => state.setEndDate)
 
   return (
-    <div>
-      <h2>Recurring Date Picker</h2>
+    <div className="recurring-date-picker">
       <DatePicker label="Start Date" value={startDate} onChange={setStartDate} />
       <DatePicker label="End Date" value={endDate} onChange={setEndDate} />
       <RecurrenceOptions />

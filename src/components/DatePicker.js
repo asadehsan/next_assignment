@@ -16,4 +16,4 @@ const DatePicker = ({ label, value, onChange }) => {
   )
 }
 
-export default DatePicker
+export default DatePicker;

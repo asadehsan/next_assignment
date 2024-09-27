@@ -10,7 +10,7 @@ const RecurrenceOptions = () => {
   const setRecurrenceInterval = useRecurringDateStore(state => state.setRecurrenceInterval)
 
   return (
-    <div>
+    <div className="recurrence-options">
       <select value={recurrenceType} onChange={(e) => setRecurrenceType(e.target.value)}>
         <option value="none">No Recurrence</option>
         <option value="daily">Daily</option>
